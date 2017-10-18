@@ -1,6 +1,8 @@
 #include <stdbool.h>
 #include <stdint.h>
+#include <stdio.h>
 #include "inc/hw_memmap.h"
+#include "inc/tm4c1294ncpdt.h"
 
 #include "driverlib/adc.h"
 #include "driverlib/aes.h"
@@ -39,3 +41,10 @@
 #include "driverlib/udma.h"
 #include "driverlib/usb.h"
 #include "driverlib/watchdog.h"
+
+#include "src/GPIO_INIT.h"
+#include "src/Phasor_Laser.h"
+#include "src/Switch_Init.h"
+#include "src/Just_A_Switchin.h"
+#include "src/Uart_helper.h"
+#include "src/Terminal_Switch.h"
